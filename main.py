@@ -1,3 +1,5 @@
+import utils.transport
+import utils.session
 from fastapi import FastAPI
 from routes import conversation_route
 from database_utility.db_connection import init_db, engine, Base
